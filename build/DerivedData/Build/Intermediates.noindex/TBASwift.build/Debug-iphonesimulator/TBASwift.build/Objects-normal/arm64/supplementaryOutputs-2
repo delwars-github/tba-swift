@@ -1,0 +1,30 @@
+{
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/CreateEvent/EventImageView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventImageView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventImageView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventImageView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventImageView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventImageView.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/CreateEvent/EventStructure2View.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructure2View.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructure2View.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructure2View.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructure2View.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructure2View.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/CreateEvent/EventStructureView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructureView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructureView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructureView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructureView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventStructureView.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/EventDetailsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.swiftdeps"
+  }
+}

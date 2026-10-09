@@ -1,0 +1,299 @@
+{
+  "" : {
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwift-primary.dia",
+    "emit-module-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwift-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwift-primary-emit-module.dia",
+    "pch" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwift-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwift-primary.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/App/AppRootView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AppRootView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/App/TBASwiftApp.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/TBASwiftApp~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Components/GlassButton.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassButton~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Components/GlassEffect.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GlassEffect~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Extensions/Color+Hex.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Color+Hex~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Models/Event.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/Event~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Auth/EnterNameView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Auth/LoginView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/LoginView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Auth/OtpView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/OtpView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/BailPolicyView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/EventDetailsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventDetailsView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/FeeBreakdownView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeeBreakdownView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/QuickQuestionView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/QuickQuestionView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/ShareView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ShareView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Guest/GuestView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GuestView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Home/EventCardView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCardView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Home/EventCarouselView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EventCarouselView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Home/FeaturedBannerView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/FeaturedBannerView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Home/HomeView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/MainTabView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MainTabView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/MyEvents/MyEventsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/MyEventsView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Notifications/NotificationsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/NotificationsView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Payment/PaymentView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/PaymentView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Payment/SelectCardView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SelectCardView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Profile/AchievementsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Profile/EditProfileView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Profile/ProfileView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/ProfileView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Settings/SettingsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

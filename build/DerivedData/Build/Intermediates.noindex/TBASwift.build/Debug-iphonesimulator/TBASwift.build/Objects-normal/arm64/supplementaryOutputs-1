@@ -1,0 +1,30 @@
+{
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Auth/EnterNameView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EnterNameView.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Event/BailPolicyView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/BailPolicyView.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Profile/AchievementsView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/AchievementsView.swiftdeps"
+  },
+  "/Users/delwar/Desktop/active project/swift-project/tba-swift/TBASwift/Views/Profile/EditProfileView.swift" : {
+    "const-values" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.swiftconstvalues",
+    "dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.d",
+    "diagnostics" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.dia",
+    "object" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.o",
+    "swift-dependencies" : "/Users/delwar/Desktop/active project/swift-project/tba-swift/build/DerivedData/Build/Intermediates.noindex/TBASwift.build/Debug-iphonesimulator/TBASwift.build/Objects-normal/arm64/EditProfileView.swiftdeps"
+  }
+}
