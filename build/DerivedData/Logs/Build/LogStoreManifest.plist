@@ -6,48 +6,6 @@
 	<integer>12</integer>
 	<key>logs</key>
 	<dict>
-		<key>2B77DC76-470F-4724-9F41-85E600710FE1</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2B77DC76-470F-4724-9F41-85E600710FE1.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-				<key>totalNumberOfAnalyzerIssues</key>
-				<integer>0</integer>
-				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
-				<key>totalNumberOfTestFailures</key>
-				<integer>0</integer>
-				<key>totalNumberOfWarnings</key>
-				<integer>20</integer>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>TBASwift project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>TBASwift</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project TBASwift with scheme TBASwift and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>813242550.82342505</real>
-			<key>timeStoppedRecording</key>
-			<real>813242555.88177705</real>
-			<key>title</key>
-			<string>Building project TBASwift with scheme TBASwift and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>2B77DC76-470F-4724-9F41-85E600710FE1</string>
-		</dict>
 		<key>6260F5C1-81F0-4DDB-BB11-FA17445AF30D</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +47,48 @@
 			<string>Building project TBASwift with scheme TBASwift and configuration Debug</string>
 			<key>uniqueIdentifier</key>
 			<string>6260F5C1-81F0-4DDB-BB11-FA17445AF30D</string>
+		</dict>
+		<key>DB8FAE56-0F54-43A9-B0BB-F7DE0C0F5B30</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB8FAE56-0F54-43A9-B0BB-F7DE0C0F5B30.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>20</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TBASwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TBASwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project TBASwift with scheme TBASwift and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>813244079.94635296</real>
+			<key>timeStoppedRecording</key>
+			<real>813244085.30252802</real>
+			<key>title</key>
+			<string>Building project TBASwift with scheme TBASwift and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DB8FAE56-0F54-43A9-B0BB-F7DE0C0F5B30</string>
 		</dict>
 	</dict>
 </dict>

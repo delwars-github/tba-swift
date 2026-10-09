@@ -16,7 +16,7 @@ struct EventCarouselView: View {
             let spacer: CGFloat = (screenWidth - itemWidth) / 2
 
             ScrollView(.horizontal, showsIndicators: false) {
-                LazyHStack(spacing: 16) {
+                LazyHStack(spacing: 12) {
                     ForEach(events) { event in
                         Button(action: {
                             router.navigationPath.append("EventDetails")
@@ -27,10 +27,13 @@ struct EventCarouselView: View {
                         .frame(width: itemWidth)
                         .scrollTransition(.interactive, axis: .horizontal) { content, phase in
                             content
-                                .scaleEffect(phase.isIdentity ? 1.0 : 0.85)
-                                .offset(y: phase.isIdentity ? 0 : 20)
+                                .scaleEffect(phase.isIdentity ? 1.0 : 0.885)
+                                .offset(y: phase.isIdentity ? 0 : 12)
+                                // Rotates the side cards so their bottoms spread outwards
+                                .rotationEffect(.degrees(phase.value * 4.0), anchor: .center)
                                 .opacity(phase.isIdentity ? 1.0 : 0.5)
                         }
+                        .zIndex(scrolledID == event.id ? 1 : 0)
                         .id(event.id)
                     }
                 }
