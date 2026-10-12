@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EventTypeView: View {
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var router: AppRouter
     @State private var selectedId: String? = nil
     
     let progress: CGFloat = 0.15
@@ -151,7 +152,7 @@ struct EventTypeView: View {
                 // Continue Button
                 Button(action: {
                     if selectedId != nil {
-                        // Navigate to next screen
+                        router.navigationPath.append("GuestEvent")
                     }
                 }) {
                     ZStack {

@@ -19,6 +19,7 @@ struct EventCarouselView: View {
                 LazyHStack(spacing: 12) {
                     ForEach(events) { event in
                         Button(action: {
+                            router.selectedEvent = event
                             router.navigationPath.append("EventDetails")
                         }) {
                             EventCardView(event: event)

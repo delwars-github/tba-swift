@@ -169,6 +169,7 @@ struct PillGroupField: View {
 
 struct PreferencesView: View {
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var router: AppRouter
     
     @State private var capacity: String? = nil
     @State private var minRequired: String? = nil
@@ -321,7 +322,7 @@ struct PreferencesView: View {
                     .frame(height: 120)
                     
                     Button(action: {
-                        // Navigate to next screen
+                        router.navigationPath.append("Questions")
                     }) {
                         ZStack {
                             Circle()

@@ -113,14 +113,14 @@ struct SettingsView: View {
                                 iconName: "creditcard",
                                 title: "Payment Info",
                                 subtitle: "Manage payment methods",
-                                action: { router.navigationPath.append("Payment") }
+                                action: { router.navigationPath.append("PaymentInfo") }
                             )
                             SettingsItem(
                                 iconName: "link",
                                 title: "Linked Accounts",
                                 subtitle: "Connected social account",
                                 isLast: true,
-                                action: {}
+                                action: { router.navigationPath.append("LinkedAccounts") }
                             )
                         }
                         .padding(.horizontal, 16)
@@ -139,20 +139,20 @@ struct SettingsView: View {
                                 iconName: "lock.shield",
                                 title: "Privacy",
                                 subtitle: "Profile visibility, data usage",
-                                action: {}
+                                action: { router.navigationPath.append("Privacy") }
                             )
                             SettingsItem(
                                 iconName: "doc.text",
                                 title: "Terms & Policy",
                                 subtitle: "Privacy policy, terms of service",
-                                action: {}
+                                action: { router.navigationPath.append("Terms") }
                             )
                             SettingsItem(
                                 iconName: "trash",
                                 title: "Delete Account",
                                 subtitle: "Permanently remove your account",
                                 isLast: true,
-                                action: {}
+                                action: { router.navigationPath.append("DeleteAccount") }
                             )
                         }
                         .padding(.horizontal, 16)
@@ -184,47 +184,13 @@ struct SettingsView: View {
         }
         .navigationBarHidden(true)
         .overlay(
-            // Logout Modal placeholder
             Group {
                 if isLogoutModalVisible {
-                    Color.black.opacity(0.4)
-                        .ignoresSafeArea()
-                        .onTapGesture {
-                            isLogoutModalVisible = false
-                        }
-                    
-                    // Simple Modal UI
-                    VStack(spacing: 24) {
-                        Text("Are you sure you want to log out?")
-                            .font(.custom("DMSerifDisplay-Regular", size: 18))
-                            .foregroundColor(.white)
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, 20)
-                        
-                        HStack(spacing: 16) {
-                            Button("Cancel") {
-                                isLogoutModalVisible = false
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 12)
-                            .background(Color.white.opacity(0.1))
-                            .cornerRadius(12)
-                            .foregroundColor(.white)
-                            
-                            Button("Log Out") {
-                                isLogoutModalVisible = false
-                                router.isAuthenticated = false
-                            }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 12)
-                            .background(Color(hex: "#FF7B7B"))
-                            .cornerRadius(12)
-                            .foregroundColor(.white)
-                        }
+                    LogoutModalView(isPresented: $isLogoutModalVisible) {
+                        router.isAuthenticated = false
+                        router.navigationPath.removeLast(router.navigationPath.count)
                     }
-                    .padding(24)
-                    .realGlass(cornerRadius: 24, strokeOpacity: 0.65, lineWidth: 1.2)
-                    .padding(.horizontal, 40)
+                    .transition(.opacity)
                 }
             }
         )

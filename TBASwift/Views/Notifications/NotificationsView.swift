@@ -38,6 +38,7 @@ func getBadgeStyle(type: String) -> BadgeStyle {
 }
 
 struct NotificationsView: View {
+    @EnvironmentObject var router: AppRouter
     @Environment(\.presentationMode) var presentationMode
     @State private var activeTab = "All"
     
@@ -47,7 +48,7 @@ struct NotificationsView: View {
         let badge = getBadgeStyle(type: item.type)
         
         return Button(action: {
-            // handle action
+            router.navigationPath.append("NotificationDetails")
         }) {
             HStack(spacing: 16) {
                 // Avatar & Badge

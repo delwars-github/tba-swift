@@ -48,7 +48,7 @@ struct HomeView: View {
                             paddingHorizontal: 12,
                             paddingVertical: 9,
                             action: {
-                                showCreateModal.toggle()
+                                router.navigationPath.append("CreateEventIntro")
                             }
                         )
 

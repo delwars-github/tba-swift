@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EventStructure2View: View {
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var router: AppRouter
     @State private var selectedId: String? = nil
     
     let progress: CGFloat = 0.60
@@ -160,7 +161,7 @@ struct EventStructure2View: View {
                     
                     Button(action: {
                         if selectedId != nil {
-                            // Navigate to next screen
+                            router.navigationPath.append("Preferences")
                         }
                     }) {
                         ZStack {

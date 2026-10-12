@@ -7,6 +7,11 @@ struct MyEventsView: View {
     @State private var selectedTab: String = "Past"
     private let tabs = ["Past", "Upcoming", "Planned"]
 
+    @State private var isStashModalVisible = false
+    @State private var isPersonalizeModalVisible = false
+    @State private var isPersonalizeVibeModalVisible = false
+    @State private var isPersonalizeTimeModalVisible = false
+
     var body: some View {
         ZStack {
             // ── Vibrant warm-to-midnight gradient background ──
@@ -34,13 +39,17 @@ struct MyEventsView: View {
                     Spacer()
 
                     HStack(spacing: 16) {
-                        Button(action: {}) {
+                        Button(action: {
+                            withAnimation { isPersonalizeModalVisible = true }
+                        }) {
                             Text("Personalize")
                                 .font(.system(size: 13, weight: .medium))
                                 .underline()
                                 .foregroundColor(Color(hex: "FFD1AA"))
                         }
-                        Button(action: {}) {
+                        Button(action: {
+                            withAnimation { isStashModalVisible = true }
+                        }) {
                             Text("Stash")
                                 .font(.system(size: 13, weight: .medium))
                                 .underline()
@@ -86,21 +95,30 @@ struct MyEventsView: View {
                         if selectedTab == "Planned" {
                             RevenueCard()
                             ForEach(MockData.plannedEvents) { event in
-                                Button(action: { router.navigationPath.append("EventDetails") }) {
+                                Button(action: {
+                                    router.selectedEvent = event
+                                    router.navigationPath.append("EventDetails")
+                                }) {
                                     PlannedEventCard(event: event)
                                 }
                                 .buttonStyle(PlainButtonStyle())
                             }
                         } else if selectedTab == "Upcoming" {
                             ForEach(MockData.upcomingEvents) { event in
-                                Button(action: { router.navigationPath.append("EventDetails") }) {
+                                Button(action: {
+                                    router.selectedEvent = event
+                                    router.navigationPath.append("EventDetails")
+                                }) {
                                     PlannedEventCard(event: event)
                                 }
                                 .buttonStyle(PlainButtonStyle())
                             }
                         } else {
                             ForEach(MockData.pastEvents) { event in
-                                Button(action: { router.navigationPath.append("EventDetails") }) {
+                                Button(action: {
+                                    router.selectedEvent = event
+                                    router.navigationPath.append("EventDetails")
+                                }) {
                                     PastEventRow(event: event)
                                 }
                                 .buttonStyle(PlainButtonStyle())
@@ -111,6 +129,37 @@ struct MyEventsView: View {
                     .padding(.horizontal, 20)
                     .padding(.top, 6)
                 }
+            }
+
+            // Stash Modal
+            if isStashModalVisible {
+                StashModalView(isPresented: $isStashModalVisible) { event in
+                    router.selectedEvent = event
+                    router.navigationPath.append("EventDetails")
+                }
+                .transition(.opacity.combined(with: .scale(scale: 0.95)))
+            }
+
+            // Personalize Modals Flow
+            if isPersonalizeModalVisible {
+                PersonalizeModalView(isPresented: $isPersonalizeModalVisible) { archetype in
+                    isPersonalizeVibeModalVisible = true
+                }
+                .transition(.opacity.combined(with: .scale(scale: 0.95)))
+            }
+
+            if isPersonalizeVibeModalVisible {
+                PersonalizeVibeModalView(isPresented: $isPersonalizeVibeModalVisible) { vibe in
+                    isPersonalizeTimeModalVisible = true
+                }
+                .transition(.opacity.combined(with: .scale(scale: 0.95)))
+            }
+
+            if isPersonalizeTimeModalVisible {
+                PersonalizeTimeModalView(isPresented: $isPersonalizeTimeModalVisible) { time in
+                    // Finished personalization
+                }
+                .transition(.opacity.combined(with: .scale(scale: 0.95)))
             }
         }
     }
@@ -157,6 +206,7 @@ private struct RevenueCard: View {
 // MARK: - Past Event Row
 
 private struct PastEventRow: View {
+    @EnvironmentObject var router: AppRouter
     let event: EventItem
 
     var body: some View {
@@ -201,7 +251,9 @@ private struct PastEventRow: View {
 
                 // Action buttons
                 HStack(spacing: 8) {
-                    Button {} label: {
+                    Button {
+                        router.navigationPath.append("EventPhotos")
+                    } label: {
                         Text("Photos")
                             .font(.system(size: 12, weight: .medium))
                             .foregroundColor(.white)
@@ -212,7 +264,9 @@ private struct PastEventRow: View {
                             .shadow(color: Color(hex: "AE4B30").opacity(0.3), radius: 4, y: 2)
                     }
 
-                    Button {} label: {
+                    Button {
+                        router.navigationPath.append("EventSurvey")
+                    } label: {
                         Text("Survey")
                             .font(.system(size: 12, weight: .medium))
                             .foregroundColor(.white.opacity(0.95))

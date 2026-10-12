@@ -98,8 +98,9 @@ struct BailPolicyView: View {
             VStack {
                 Spacer()
                 Button(action: {
-                    // Show accept modal
-                    // Mocking action for now
+                    withAnimation {
+                        isAcceptModalVisible = true
+                    }
                 }) {
                     Text("Accept")
                         .font(.custom("DMSerifDisplay-Italic", size: 14))
@@ -108,6 +109,32 @@ struct BailPolicyView: View {
                         .realGlass(cornerRadius: 42, strokeOpacity: 0.65, lineWidth: 1.2)
                 }
                 .padding(.bottom, 14)
+            }
+
+            // Accept Modal
+            if isAcceptModalVisible {
+                AcceptModalView(isPresented: $isAcceptModalVisible) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        withAnimation {
+                            isPhoneModalVisible = true
+                        }
+                    }
+                }
+                .transition(.opacity)
+            }
+
+            // Friend Phone Modal
+            if isPhoneModalVisible {
+                FriendPhoneModalView(
+                    isPresented: $isPhoneModalVisible,
+                    onContinue: { phone in
+                        router.navigationPath.append("Payment")
+                    },
+                    onNotOnApp: {
+                        router.navigationPath.append("Guest")
+                    }
+                )
+                .transition(.opacity)
             }
         }
         .navigationBarHidden(true)

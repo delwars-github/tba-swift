@@ -44,6 +44,37 @@
 		D8B89606E9A9ED93C1E82FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A4B1A526EB6A85BA447487 /* Assets.xcassets */; };
 		F6A812047A39E293D109145A /* EventTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB18A6A56B5DA2D9D14ED50 /* EventTypeView.swift */; };
 		FFD379476C4E6655A71F196E /* BailPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD089D0220C08AE776CA3E /* BailPolicyView.swift */; };
+		11BC3B2D245977C8BF75EDAE /* CreateEventIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D81C0BA079950A6482B24C /* CreateEventIntroView.swift */; };
+		5B0EECB2F73AD905C02DD95D /* EventChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0380DBF5D607B088C9C00 /* EventChatView.swift */; };
+		6E861DD569EC7EF6319E7562 /* EventPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E092E4AFF30F608610026A9 /* EventPhotosView.swift */; };
+		DA1E26D35F3747F214C85F5D /* EventSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337DB403F16FFCD8A701EE8 /* EventSurveyView.swift */; };
+		89320A7711E7B6864244C226 /* HostCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15FD250857C65B0D7BFF11 /* HostCheckInView.swift */; };
+		958787678CC9E4BF4089CE4B /* HostSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74970F13F433BC92407BC74F /* HostSelectView.swift */; };
+		A96B61C0ACEFE5A03A929D66 /* GreatTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E16E00564E259FBFF5746 /* GreatTimeView.swift */; };
+		7E0829007283C626989A1DDE /* HostEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217701B07578193CA4FC4DE /* HostEmojiView.swift */; };
+		0B8C72EFB8B2FCF48A2B027F /* HostSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971CCB5FB3592B7A36017011 /* HostSurveyView.swift */; };
+		8CB97D8B8BCF2FE407FB1985 /* HostTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0593CF01AACFEED307D9007 /* HostTwoView.swift */; };
+		67F69456679F34BCE932FB01 /* JoiningEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186503BD8787B77701BEAD84 /* JoiningEventView.swift */; };
+		9676A7013A5B9D5601731C3C /* JoiningTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612FD2AC9B2D3A5744D98BD /* JoiningTwoView.swift */; };
+		657A5C8D8605953CC2460AED /* UniquenessRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E949C51B0AF0D68825CA3 /* UniquenessRatingView.swift */; };
+		4D5D6B93EBD91FE7EB6EC1E7 /* NotificationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13707BD12327321D0E29D2F7 /* NotificationDetailsView.swift */; };
+		B529A3C92131040A2A0E824A /* AddPaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D96D228FC21621FC6E29EB /* AddPaymentMethodView.swift */; };
+		C7DC87EA24F16D6224809C33 /* DeleteAccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B73D1E00BB65106E022B8 /* DeleteAccountDetailsView.swift */; };
+		8BDF40D47A61527F038F9E2D /* DeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E473192D9BBFFC38601BD2 /* DeleteAccountView.swift */; };
+		FD6EF0DD26C4A96656FF6BD6 /* LinkedAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED409560A96177E74FCD9A /* LinkedAccountsView.swift */; };
+		EDB736BD9D385A32C15BE98E /* PaymentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBD828589674EFA24EE40B3 /* PaymentInfoView.swift */; };
+		E65AF101976B4005993DF96A /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C06E4A9CD8F216653D5F2C /* PrivacyView.swift */; };
+		BB722F8E7AE1C6CEC4060841 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A847C094FB8C39D901D31C83 /* TermsView.swift */; };
+		5967A71F3DE083F307EE76CD /* StashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF0E53A7D123974E86206D /* StashManager.swift */; };
+		F39F05444842FA423CA83D58 /* AcceptModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30088FAC12917E33A8F47310 /* AcceptModalView.swift */; };
+		4F75458641F1E74243706F01 /* FriendPhoneModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A74E61C8D1237F23A5B320 /* FriendPhoneModalView.swift */; };
+		8C610F1C3EDC13CC1FC129A7 /* LogoutModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629286560BABCC7CD76BD83 /* LogoutModalView.swift */; };
+		97358BC66AB4C3133E8E1669 /* PaymentSuccessModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77E10FB616C91F0C667FCD5 /* PaymentSuccessModalView.swift */; };
+		37AE82D132AECCE06A2D7AE5 /* PersonalizeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50C859B46F9273413383926 /* PersonalizeModalView.swift */; };
+		B6829E77ED10EBD95A4C2008 /* PersonalizeTimeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67B8CCFAB0A700B4A129672 /* PersonalizeTimeModalView.swift */; };
+		6EDA1897A7826CF68C46FAA4 /* PersonalizeVibeModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B90B267FBE29D62E03540A /* PersonalizeVibeModalView.swift */; };
+		798B5956DE74F0661DAF9E1D /* StashModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7485371B26AF7F5E5F6236F /* StashModalView.swift */; };
+		82F88066547363F2D95D2AE6 /* GuestConfirmModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D9F2EFF0E18F158AABD00 /* GuestConfirmModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,13 +117,86 @@
 		E3350626AE5234A1C16C4D67 /* EventCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCarouselView.swift; sourceTree = "<group>"; };
 		F5CEE6621D1D4EDC4B0D49C5 /* EventStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStructureView.swift; sourceTree = "<group>"; };
 		F63E5DFDBFA7586B0B5AFA2F /* TBASwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBASwiftApp.swift; sourceTree = "<group>"; };
+		D5D81C0BA079950A6482B24C /* CreateEventIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventIntroView.swift; sourceTree = "<group>"; };
+		EAE0380DBF5D607B088C9C00 /* EventChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventChatView.swift; sourceTree = "<group>"; };
+		1E092E4AFF30F608610026A9 /* EventPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPhotosView.swift; sourceTree = "<group>"; };
+		2337DB403F16FFCD8A701EE8 /* EventSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSurveyView.swift; sourceTree = "<group>"; };
+		AF15FD250857C65B0D7BFF11 /* HostCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostCheckInView.swift; sourceTree = "<group>"; };
+		74970F13F433BC92407BC74F /* HostSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSelectView.swift; sourceTree = "<group>"; };
+		773E16E00564E259FBFF5746 /* GreatTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatTimeView.swift; sourceTree = "<group>"; };
+		5217701B07578193CA4FC4DE /* HostEmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostEmojiView.swift; sourceTree = "<group>"; };
+		971CCB5FB3592B7A36017011 /* HostSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostSurveyView.swift; sourceTree = "<group>"; };
+		C0593CF01AACFEED307D9007 /* HostTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTwoView.swift; sourceTree = "<group>"; };
+		186503BD8787B77701BEAD84 /* JoiningEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoiningEventView.swift; sourceTree = "<group>"; };
+		2612FD2AC9B2D3A5744D98BD /* JoiningTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoiningTwoView.swift; sourceTree = "<group>"; };
+		AA7E949C51B0AF0D68825CA3 /* UniquenessRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquenessRatingView.swift; sourceTree = "<group>"; };
+		13707BD12327321D0E29D2F7 /* NotificationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailsView.swift; sourceTree = "<group>"; };
+		12D96D228FC21621FC6E29EB /* AddPaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodView.swift; sourceTree = "<group>"; };
+		1E0B73D1E00BB65106E022B8 /* DeleteAccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountDetailsView.swift; sourceTree = "<group>"; };
+		55E473192D9BBFFC38601BD2 /* DeleteAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountView.swift; sourceTree = "<group>"; };
+		FBED409560A96177E74FCD9A /* LinkedAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedAccountsView.swift; sourceTree = "<group>"; };
+		8EBD828589674EFA24EE40B3 /* PaymentInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoView.swift; sourceTree = "<group>"; };
+		58C06E4A9CD8F216653D5F2C /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		A847C094FB8C39D901D31C83 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		A7FF0E53A7D123974E86206D /* StashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashManager.swift; sourceTree = "<group>"; };
+		30088FAC12917E33A8F47310 /* AcceptModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptModalView.swift; sourceTree = "<group>"; };
+		E5A74E61C8D1237F23A5B320 /* FriendPhoneModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhoneModalView.swift; sourceTree = "<group>"; };
+		6629286560BABCC7CD76BD83 /* LogoutModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutModalView.swift; sourceTree = "<group>"; };
+		F77E10FB616C91F0C667FCD5 /* PaymentSuccessModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessModalView.swift; sourceTree = "<group>"; };
+		D50C859B46F9273413383926 /* PersonalizeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizeModalView.swift; sourceTree = "<group>"; };
+		D67B8CCFAB0A700B4A129672 /* PersonalizeTimeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizeTimeModalView.swift; sourceTree = "<group>"; };
+		28B90B267FBE29D62E03540A /* PersonalizeVibeModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizeVibeModalView.swift; sourceTree = "<group>"; };
+		E7485371B26AF7F5E5F6236F /* StashModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashModalView.swift; sourceTree = "<group>"; };
+		7E7D9F2EFF0E18F158AABD00 /* GuestConfirmModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestConfirmModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		5D8106630551C9737D2ACCF4 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				30088FAC12917E33A8F47310 /* AcceptModalView.swift */,
+				E5A74E61C8D1237F23A5B320 /* FriendPhoneModalView.swift */,
+				6629286560BABCC7CD76BD83 /* LogoutModalView.swift */,
+				F77E10FB616C91F0C667FCD5 /* PaymentSuccessModalView.swift */,
+				D50C859B46F9273413383926 /* PersonalizeModalView.swift */,
+				D67B8CCFAB0A700B4A129672 /* PersonalizeTimeModalView.swift */,
+				28B90B267FBE29D62E03540A /* PersonalizeVibeModalView.swift */,
+				E7485371B26AF7F5E5F6236F /* StashModalView.swift */,
+							7E7D9F2EFF0E18F158AABD00 /* GuestConfirmModalView.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+
+		BA831D26D01ECA8B2E50E46E /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				AF15FD250857C65B0D7BFF11 /* HostCheckInView.swift */,
+				74970F13F433BC92407BC74F /* HostSelectView.swift */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+		792ED60E023A5C8D16CFF566 /* Joining */ = {
+			isa = PBXGroup;
+			children = (
+				773E16E00564E259FBFF5746 /* GreatTimeView.swift */,
+				5217701B07578193CA4FC4DE /* HostEmojiView.swift */,
+				971CCB5FB3592B7A36017011 /* HostSurveyView.swift */,
+				C0593CF01AACFEED307D9007 /* HostTwoView.swift */,
+				186503BD8787B77701BEAD84 /* JoiningEventView.swift */,
+				2612FD2AC9B2D3A5744D98BD /* JoiningTwoView.swift */,
+				AA7E949C51B0AF0D68825CA3 /* UniquenessRatingView.swift */,
+			);
+			path = Joining;
+			sourceTree = "<group>";
+		};
+
 		0C178CC873A5B990A3BF22D5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				10D7C67E8C7D2E2F6C89C84E /* Event.swift */,
+							A7FF0E53A7D123974E86206D /* StashManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -108,6 +212,7 @@
 				625E82443E0FF38BA3442521 /* PreferencesView.swift */,
 				4DE48EE226470BF2E7C87106 /* QuestionsView.swift */,
 				22657B3B7B2B134DC1293024 /* ReviewSuccessView.swift */,
+							D5D81C0BA079950A6482B24C /* CreateEventIntroView.swift */,
 			);
 			path = CreateEvent;
 			sourceTree = "<group>";
@@ -206,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				B522EFA4CCF5F195697E02AD /* NotificationsView.swift */,
+							13707BD12327321D0E29D2F7 /* NotificationDetailsView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -214,6 +320,13 @@
 			isa = PBXGroup;
 			children = (
 				90C9940CA0FEE1B892D858A1 /* SettingsView.swift */,
+							12D96D228FC21621FC6E29EB /* AddPaymentMethodView.swift */,
+				1E0B73D1E00BB65106E022B8 /* DeleteAccountDetailsView.swift */,
+				55E473192D9BBFFC38601BD2 /* DeleteAccountView.swift */,
+				FBED409560A96177E74FCD9A /* LinkedAccountsView.swift */,
+				8EBD828589674EFA24EE40B3 /* PaymentInfoView.swift */,
+				58C06E4A9CD8F216653D5F2C /* PrivacyView.swift */,
+				A847C094FB8C39D901D31C83 /* TermsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -226,6 +339,9 @@
 				1934F5514455891FAFBF1FE8 /* FeeBreakdownView.swift */,
 				A52516207799E6DB7C9D13A4 /* QuickQuestionView.swift */,
 				5051AC636D6461F713A061DA /* ShareView.swift */,
+							EAE0380DBF5D607B088C9C00 /* EventChatView.swift */,
+				1E092E4AFF30F608610026A9 /* EventPhotosView.swift */,
+				2337DB403F16FFCD8A701EE8 /* EventSurveyView.swift */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -258,6 +374,9 @@
 				C56D7ABF571DC0A52B0CD98A /* Payment */,
 				C05F63A0969B63287CCFB18D /* Profile */,
 				D604CC32756FEA316AD46445 /* Settings */,
+							BA831D26D01ECA8B2E50E46E /* Host */,
+				792ED60E023A5C8D16CFF566 /* Joining */,
+							5D8106630551C9737D2ACCF4 /* Modals */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -376,6 +495,39 @@
 				D42BFD144E3AADF9BFC4A8F2 /* SettingsView.swift in Sources */,
 				C6D8FDC58D39B5B642646CFE /* ShareView.swift in Sources */,
 				B592D31786C8EF70AA45AEEF /* TBASwiftApp.swift in Sources */,
+			
+				11BC3B2D245977C8BF75EDAE /* CreateEventIntroView.swift in Sources */,
+				5B0EECB2F73AD905C02DD95D /* EventChatView.swift in Sources */,
+				6E861DD569EC7EF6319E7562 /* EventPhotosView.swift in Sources */,
+				DA1E26D35F3747F214C85F5D /* EventSurveyView.swift in Sources */,
+				89320A7711E7B6864244C226 /* HostCheckInView.swift in Sources */,
+				958787678CC9E4BF4089CE4B /* HostSelectView.swift in Sources */,
+				A96B61C0ACEFE5A03A929D66 /* GreatTimeView.swift in Sources */,
+				7E0829007283C626989A1DDE /* HostEmojiView.swift in Sources */,
+				0B8C72EFB8B2FCF48A2B027F /* HostSurveyView.swift in Sources */,
+				8CB97D8B8BCF2FE407FB1985 /* HostTwoView.swift in Sources */,
+				67F69456679F34BCE932FB01 /* JoiningEventView.swift in Sources */,
+				9676A7013A5B9D5601731C3C /* JoiningTwoView.swift in Sources */,
+				657A5C8D8605953CC2460AED /* UniquenessRatingView.swift in Sources */,
+				4D5D6B93EBD91FE7EB6EC1E7 /* NotificationDetailsView.swift in Sources */,
+				B529A3C92131040A2A0E824A /* AddPaymentMethodView.swift in Sources */,
+				C7DC87EA24F16D6224809C33 /* DeleteAccountDetailsView.swift in Sources */,
+				8BDF40D47A61527F038F9E2D /* DeleteAccountView.swift in Sources */,
+				FD6EF0DD26C4A96656FF6BD6 /* LinkedAccountsView.swift in Sources */,
+				EDB736BD9D385A32C15BE98E /* PaymentInfoView.swift in Sources */,
+				E65AF101976B4005993DF96A /* PrivacyView.swift in Sources */,
+				BB722F8E7AE1C6CEC4060841 /* TermsView.swift in Sources */,
+			
+				5967A71F3DE083F307EE76CD /* StashManager.swift in Sources */,
+				F39F05444842FA423CA83D58 /* AcceptModalView.swift in Sources */,
+				4F75458641F1E74243706F01 /* FriendPhoneModalView.swift in Sources */,
+				8C610F1C3EDC13CC1FC129A7 /* LogoutModalView.swift in Sources */,
+				97358BC66AB4C3133E8E1669 /* PaymentSuccessModalView.swift in Sources */,
+				37AE82D132AECCE06A2D7AE5 /* PersonalizeModalView.swift in Sources */,
+				B6829E77ED10EBD95A4C2008 /* PersonalizeTimeModalView.swift in Sources */,
+				6EDA1897A7826CF68C46FAA4 /* PersonalizeVibeModalView.swift in Sources */,
+				798B5956DE74F0661DAF9E1D /* StashModalView.swift in Sources */,
+							82F88066547363F2D95D2AE6 /* GuestConfirmModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
