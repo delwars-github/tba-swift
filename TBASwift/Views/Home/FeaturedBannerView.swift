@@ -2,12 +2,14 @@ import SwiftUI
 
 struct FeaturedBannerView: View {
     var banners: [BannerItem] = MockData.banners
+    var animationStartIndex = 0
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 16) {
-                ForEach(banners) { banner in
+                ForEach(Array(banners.enumerated()), id: \.element.id) { index, banner in
                     BannerCard(banner: banner)
+                        .glassStagger(index: animationStartIndex + index, delayOffset: 0.08)
                 }
             }
             .padding(.horizontal, 20)

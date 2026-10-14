@@ -1,7 +1,7 @@
 import SwiftUI
 
 class AppRouter: ObservableObject {
-    @Published var isAuthenticated: Bool = false
+    @Published var isAuthenticated: Bool = true
     @Published var navigationPath = NavigationPath()
     @Published var selectedEvent: EventItem = MockData.carouselEvents[1]
 }

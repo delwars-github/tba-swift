@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build and launch TBASwift simulator",
+			"type": "shell",
+			"command": "sh",
+			"args": [
+				"-lc",
+				"xcrun simctl boot 1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9 >/dev/null 2>&1 || true; open -a Simulator; xcrun simctl bootstatus 1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9 -b && xcodebuild -quiet -project TBASwift.xcodeproj -scheme TBASwift -configuration Debug -destination 'platform=iOS Simulator,id=1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9' -derivedDataPath /tmp/TBASwiftDerivedData build && xcrun simctl install 1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9 /tmp/TBASwiftDerivedData/Build/Products/Debug-iphonesimulator/TBASwift.app && (xcrun simctl terminate 1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9 com.tba.TBASwift >/dev/null 2>&1 || true) && xcrun simctl launch 1FC82A4A-577F-46FC-8EE1-3FD67D83B0A9 com.tba.TBASwift"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

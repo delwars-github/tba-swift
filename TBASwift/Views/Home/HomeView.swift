@@ -70,9 +70,10 @@ struct HomeView: View {
                     .padding(.horizontal, 20)
                     .padding(.top, 56)
 
-                    // Featured Mini Banners
+                    // Featured Mini Banners with Specular Glass Light
                     FeaturedBannerView()
                         .padding(.top, 6)
+                        .glassShimmer(duration: 5.0, delay: 1.5)
 
                     // "Browse Events" Section Header
                     HStack {
@@ -93,12 +94,13 @@ struct HomeView: View {
                                 .padding(8)
                                 .glassCard(cornerRadius: 12)
                         }
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.90))
                     }
                     .padding(.horizontal, 22)
                     .padding(.top, 6)
 
                     // Main Events Carousel
-                    EventCarouselView()
+                    EventCarouselView(animationStartIndex: MockData.banners.count)
 
                     // Bottom spacing for floating tab pill
                     Spacer().frame(height: 120)

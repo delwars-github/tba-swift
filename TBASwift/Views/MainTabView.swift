@@ -37,15 +37,18 @@ struct MainTabView: View {
     var body: some View {
         GlassEffectContainer {
             ZStack(alignment: .bottom) {
-                // Screen Content
-                Group {
+                // Screen Content with smooth fade & scale transition
+                ZStack {
                     switch selectedTab {
                     case .home:
                         HomeView()
+                            .transition(.opacity.combined(with: .scale(scale: 0.985)))
                     case .myEvent:
                         MyEventsView()
+                            .transition(.opacity.combined(with: .scale(scale: 0.985)))
                     case .profile:
                         ProfileView()
+                            .transition(.opacity.combined(with: .scale(scale: 0.985)))
                     }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -69,13 +72,13 @@ struct MainTabView: View {
                 }
                 .ignoresSafeArea()
 
-                // Wide Floating Glass Tab Bar — Exact Figma Match
+                // Wide Floating Glass Tab Bar — Award Level Fluid Motion
                 HStack(spacing: 0) {
                     ForEach(TabItemType.allCases, id: \.self) { tab in
                         let isSelected = selectedTab == tab
 
                         Button(action: {
-                            withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) {
+                            withAnimation(.spring(response: 0.38, dampingFraction: 0.70)) {
                                 selectedTab = tab
                             }
                         }) {
@@ -86,6 +89,8 @@ struct MainTabView: View {
                                     .scaledToFit()
                                     .frame(width: 24, height: 24)
                                     .foregroundColor(isSelected ? Color(red: 1, green: 0.97, blue: 0.93) : Color.white.opacity(0.85))
+                                    .scaleEffect(isSelected ? 1.08 : 0.96)
+                                    .animation(.spring(response: 0.32, dampingFraction: 0.65), value: isSelected)
 
                                 if isSelected {
                                     Text(tab.title)
@@ -94,7 +99,7 @@ struct MainTabView: View {
                                         .lineLimit(1)
                                         .fixedSize(horizontal: true, vertical: false)
                                         .transition(.asymmetric(
-                                            insertion: .opacity.combined(with: .scale(scale: 0.9)),
+                                            insertion: .opacity.combined(with: .scale(scale: 0.88)),
                                             removal: .opacity
                                         ))
                                 }
@@ -104,41 +109,52 @@ struct MainTabView: View {
                                 ZStack {
                                     if isSelected {
                                         RoundedRectangle(cornerRadius: 32)
-                                            .fill(Color(red: 0.64, green: 0.32, blue: 0.22))
+                                            .fill(
+                                                LinearGradient(
+                                                    colors: [
+                                                        Color(red: 0.72, green: 0.36, blue: 0.24),
+                                                        Color(red: 0.60, green: 0.28, blue: 0.18)
+                                                    ],
+                                                    startPoint: .topLeading,
+                                                    endPoint: .bottomTrailing
+                                                )
+                                            )
                                             .matchedGeometryEffect(id: "ACTIVE_TAB_PILL", in: animationNamespace)
                                             .overlay(
                                                 RoundedRectangle(cornerRadius: 32)
                                                     .inset(by: 0.50)
-                                                    .stroke(Color(red: 0.64, green: 0.32, blue: 0.22), lineWidth: 0.50)
+                                                    .stroke(Color.white.opacity(0.22), lineWidth: 0.75)
                                             )
                                             .shadow(
-                                                color: Color(red: 0.68, green: 0.28, blue: 0.19).opacity(0.21),
-                                                radius: 16, y: 12
+                                                color: Color(red: 0.68, green: 0.28, blue: 0.19).opacity(0.40),
+                                                radius: 18, y: 8
                                             )
                                     }
                                 }
                             )
                         }
-                        .buttonStyle(PlainButtonStyle())
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.92))
                         .frame(maxWidth: .infinity)
                     }
                 }
                 .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
                 .frame(width: 300)
-                .background(Color.white.opacity(0.01)) // Small fill just in case needed by glass effect container
+                .background(Color.white.opacity(0.01))
                 .realGlass(
                     cornerRadius: 32,
-                    hasShadow: false, // We'll apply the specific shadow manually below
-                    lineWidth: 0.0 // Handled by manual overlay below
+                    hasShadow: false,
+                    lineWidth: 0.0
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 32)
                         .inset(by: 0.50)
-                        .stroke(Color(red: 1, green: 1, blue: 1).opacity(0.05), lineWidth: 0.50)
+                        .stroke(Color.white.opacity(0.12), lineWidth: 0.75)
                 )
                 .shadow(
-                    color: Color(red: 0, green: 0, blue: 0).opacity(0.13), radius: 34.80, y: 23
+                    color: Color.black.opacity(0.35), radius: 34.80, y: 23
                 )
+                .glassShimmer(duration: 4.5, delay: 2.0)
+                .glassBorderGlow(cornerRadius: 32, duration: 5)
                 .padding(.bottom, 24)
             }
             .ignoresSafeArea()

@@ -52,7 +52,11 @@ struct EventDetailsView: View {
                         // Top Bar with Back & Share
                         HStack {
                             Button(action: {
-                                presentationMode.wrappedValue.dismiss()
+                                if !router.navigationPath.isEmpty {
+                                    router.navigationPath.removeLast()
+                                } else {
+                                    presentationMode.wrappedValue.dismiss()
+                                }
                             }) {
                                 Image(systemName: "arrow.left")
                                     .font(.system(size: 20, weight: .medium))

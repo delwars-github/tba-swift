@@ -3,10 +3,12 @@ import SwiftUI
 struct EventCarouselView: View {
     @EnvironmentObject var router: AppRouter
     let events: [EventItem]
+    let animationStartIndex: Int
     @State private var scrolledID: String? = "2"
 
-    init(events: [EventItem] = MockData.carouselEvents) {
+    init(events: [EventItem] = MockData.carouselEvents, animationStartIndex: Int = 0) {
         self.events = events
+        self.animationStartIndex = animationStartIndex
     }
 
     var body: some View {
@@ -17,15 +19,10 @@ struct EventCarouselView: View {
 
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 12) {
-                    ForEach(events) { event in
-                        Button(action: {
-                            router.selectedEvent = event
-                            router.navigationPath.append("EventDetails")
-                        }) {
-                            EventCardView(event: event)
-                        }
-                        .buttonStyle(PlainButtonStyle())
-                        .frame(width: itemWidth)
+                    ForEach(Array(events.enumerated()), id: \.element.id) { index, event in
+                        EventCardView(event: event)
+                            .frame(width: itemWidth)
+                            .glassStagger(index: animationStartIndex + index, delayOffset: 0.08)
                         .scrollTransition(.interactive, axis: .horizontal) { content, phase in
                             content
                                 .scaleEffect(phase.isIdentity ? 1.0 : 0.885)

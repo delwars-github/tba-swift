@@ -4,6 +4,7 @@ import SwiftUI
 
 struct MyEventsView: View {
     @EnvironmentObject var router: AppRouter
+    @Namespace private var tabAnimationNamespace
     @State private var selectedTab: String = "Past"
     private let tabs = ["Past", "Upcoming", "Planned"]
 
@@ -40,21 +41,24 @@ struct MyEventsView: View {
 
                     HStack(spacing: 16) {
                         Button(action: {
-                            withAnimation { isPersonalizeModalVisible = true }
+                            withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) { isPersonalizeModalVisible = true }
                         }) {
                             Text("Personalize")
                                 .font(.system(size: 13, weight: .medium))
                                 .underline()
                                 .foregroundColor(Color(hex: "FFD1AA"))
                         }
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.94))
+
                         Button(action: {
-                            withAnimation { isStashModalVisible = true }
+                            withAnimation(.spring(response: 0.35, dampingFraction: 0.75)) { isStashModalVisible = true }
                         }) {
                             Text("Stash")
                                 .font(.system(size: 13, weight: .medium))
                                 .underline()
                                 .foregroundColor(Color(hex: "FFD1AA"))
                         }
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.94))
                     }
                 }
                 .padding(.horizontal, 20)
@@ -65,7 +69,8 @@ struct MyEventsView: View {
                 HStack(spacing: 4) {
                     ForEach(tabs, id: \.self) { tab in
                         Button {
-                            withAnimation(.spring(response: 0.3, dampingFraction: 0.75)) {
+                            UISelectionFeedbackGenerator().selectionChanged()
+                            withAnimation(.spring(response: 0.32, dampingFraction: 0.72)) {
                                 selectedTab = tab
                             }
                         } label: {
@@ -79,9 +84,11 @@ struct MyEventsView: View {
                                         RoundedRectangle(cornerRadius: 14, style: .continuous)
                                             .fill(Color(hex: "F59E2E"))
                                             .shadow(color: Color(hex: "F59E2E").opacity(0.35), radius: 8, y: 2)
+                                            .matchedGeometryEffect(id: "MY_EVENTS_ACTIVE_TAB_PILL", in: tabAnimationNamespace)
                                     }
                                 }
                         }
+                        .buttonStyle(.plain)
                     }
                 }
                 .padding(4)
@@ -94,38 +101,68 @@ struct MyEventsView: View {
                     VStack(spacing: 16) {
                         if selectedTab == "Planned" {
                             RevenueCard()
-                            ForEach(MockData.plannedEvents) { event in
+                                .glassStagger(index: 0, delayOffset: 0.08)
+                                .scrollTransition(.animated.threshold(.visible(0.15))) { content, phase in
+                                    content
+                                        .opacity(phase.isIdentity ? 1.0 : 0.45)
+                                        .scaleEffect(phase.isIdentity ? 1.0 : 0.94)
+                                        .offset(y: phase.isIdentity ? 0 : 20)
+                                }
+
+                            ForEach(Array(MockData.plannedEvents.enumerated()), id: \.element.id) { index, event in
                                 Button(action: {
                                     router.selectedEvent = event
                                     router.navigationPath.append("EventDetails")
                                 }) {
                                     PlannedEventCard(event: event)
                                 }
-                                .buttonStyle(PlainButtonStyle())
+                                .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.96))
+                                .glassStagger(index: index + 1, delayOffset: 0.08)
+                                .scrollTransition(.animated.threshold(.visible(0.15))) { content, phase in
+                                    content
+                                        .opacity(phase.isIdentity ? 1.0 : 0.45)
+                                        .scaleEffect(phase.isIdentity ? 1.0 : 0.94)
+                                        .offset(y: phase.isIdentity ? 0 : 20)
+                                }
                             }
                         } else if selectedTab == "Upcoming" {
-                            ForEach(MockData.upcomingEvents) { event in
+                            ForEach(Array(MockData.upcomingEvents.enumerated()), id: \.element.id) { index, event in
                                 Button(action: {
                                     router.selectedEvent = event
                                     router.navigationPath.append("EventDetails")
                                 }) {
                                     PlannedEventCard(event: event)
                                 }
-                                .buttonStyle(PlainButtonStyle())
+                                .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.96))
+                                .glassStagger(index: index, delayOffset: 0.08)
+                                .scrollTransition(.animated.threshold(.visible(0.15))) { content, phase in
+                                    content
+                                        .opacity(phase.isIdentity ? 1.0 : 0.45)
+                                        .scaleEffect(phase.isIdentity ? 1.0 : 0.94)
+                                        .offset(y: phase.isIdentity ? 0 : 20)
+                                }
                             }
                         } else {
-                            ForEach(MockData.pastEvents) { event in
+                            ForEach(Array(MockData.pastEvents.enumerated()), id: \.element.id) { index, event in
                                 Button(action: {
                                     router.selectedEvent = event
                                     router.navigationPath.append("EventDetails")
                                 }) {
                                     PastEventRow(event: event)
                                 }
-                                .buttonStyle(PlainButtonStyle())
+                                .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.96))
+                                .glassStagger(index: index, delayOffset: 0.08)
+                                .scrollTransition(.animated.threshold(.visible(0.15))) { content, phase in
+                                    content
+                                        .opacity(phase.isIdentity ? 1.0 : 0.45)
+                                        .scaleEffect(phase.isIdentity ? 1.0 : 0.94)
+                                        .offset(y: phase.isIdentity ? 0 : 20)
+                                }
                             }
                         }
                         Spacer().frame(height: 120)
                     }
+                    .id(selectedTab)
                     .padding(.horizontal, 20)
                     .padding(.top, 6)
                 }
@@ -200,6 +237,7 @@ private struct RevenueCard: View {
         }
         .padding(14)
         .glassCard(cornerRadius: 28)
+        .glassShimmer(duration: 4.5, delay: 1.5)
     }
 }
 
@@ -263,17 +301,31 @@ private struct PastEventRow: View {
                             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                             .shadow(color: Color(hex: "AE4B30").opacity(0.3), radius: 4, y: 2)
                     }
+                    .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.93))
 
                     Button {
                         router.navigationPath.append("EventSurvey")
                     } label: {
                         Text("Survey")
                             .font(.system(size: 12, weight: .medium))
-                            .foregroundColor(.white.opacity(0.95))
+                            .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 9)
-                            .glassCard(cornerRadius: 12)
+                            .background(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .fill(.ultraThinMaterial.opacity(0.85))
+                            )
+                            .background(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .fill(Color.white.opacity(0.16))
+                            )
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .strokeBorder(Color.white.opacity(0.18), lineWidth: 0.75)
+                            )
+                            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                     }
+                    .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.93))
                 }
             }
             .frame(height: 118)

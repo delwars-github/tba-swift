@@ -93,10 +93,32 @@ struct GlassButton: View {
 struct CircularGlassButton: View {
     var systemIcon: String?
     var assetIcon: String?
+    var iconColor: Color = .white
     var iconSize: CGFloat = 16
+    var iconScale: CGFloat = 1.0
     var size: CGFloat = 44
     var strokeOpacity: Double = 0.65
     var action: () -> Void = {}
+
+    init(
+        systemIcon: String? = nil,
+        assetIcon: String? = nil,
+        iconColor: Color = .white,
+        iconSize: CGFloat = 16,
+        iconScale: CGFloat = 1.0,
+        size: CGFloat = 44,
+        strokeOpacity: Double = 0.65,
+        action: @escaping () -> Void = {}
+    ) {
+        self.systemIcon = systemIcon
+        self.assetIcon = assetIcon
+        self.iconColor = iconColor
+        self.iconSize = iconSize
+        self.iconScale = iconScale
+        self.size = size
+        self.strokeOpacity = strokeOpacity
+        self.action = action
+    }
 
     var body: some View {
         Button(action: action) {
@@ -107,11 +129,13 @@ struct CircularGlassButton: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: iconSize, height: iconSize)
-                        .foregroundColor(.white)
+                        .foregroundColor(iconColor)
+                        .scaleEffect(iconScale)
                 } else if let systemIcon = systemIcon {
                     Image(systemName: systemIcon)
                         .font(.system(size: iconSize, weight: .semibold))
-                        .foregroundColor(.white)
+                        .foregroundColor(iconColor)
+                        .scaleEffect(iconScale)
                 }
             }
             .frame(width: size, height: size)

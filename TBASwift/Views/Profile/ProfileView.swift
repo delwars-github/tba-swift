@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ProfileView: View {
     @EnvironmentObject var router: AppRouter
+    @State private var isAppeared = false
     let hobbies = ["Travel", "Photography", "Art", "Music", "Technology", "Sports"]
 
     var body: some View {
@@ -122,8 +123,9 @@ struct ProfileView: View {
                     .padding(16)
                     .glassCard(cornerRadius: 20)
                     .padding(.horizontal, 20)
+                    .glassStagger(index: 0, delayOffset: 0.08)
 
-                    // Stats Row (3 Glass Cards)
+                    // Stats Row (3 Glass Cards with Shimmer & Interactive Feel)
                     HStack(spacing: 10) {
                         // 1. Creative
                         VStack(spacing: 8) {
@@ -142,8 +144,9 @@ struct ProfileView: View {
                         .padding(.vertical, 14)
                         .frame(height: 96)
                         .glassCard(cornerRadius: 12.65, lineWidth: 0.10, strokeColor: Color(red: 1, green: 0.67, blue: 0.31))
+                        .glassStagger(index: 1, delayOffset: 0.08)
 
-                        // 2. Answer (Progress Circle)
+                        // 2. Answer (Animated Progress Circle)
                         VStack(spacing: 6) {
                             ZStack {
                                 Circle()
@@ -151,10 +154,18 @@ struct ProfileView: View {
                                     .frame(width: 42, height: 42)
 
                                 Circle()
-                                    .trim(from: 0, to: 0.786)
-                                    .stroke(Color(hex: "FFB162"), style: StrokeStyle(lineWidth: 4, lineCap: .round))
+                                    .trim(from: 0, to: isAppeared ? 0.786 : 0.0)
+                                    .stroke(
+                                        LinearGradient(
+                                            colors: [Color(hex: "FFB162"), Color(hex: "FF8442")],
+                                            startPoint: .topLeading,
+                                            endPoint: .bottomTrailing
+                                        ),
+                                        style: StrokeStyle(lineWidth: 4, lineCap: .round)
+                                    )
                                     .frame(width: 42, height: 42)
                                     .rotationEffect(.degrees(-90))
+                                    .animation(.easeOut(duration: 1.2).delay(0.2), value: isAppeared)
 
                                 Text("78.6%")
                                     .font(.system(size: 9, weight: .bold))
@@ -169,27 +180,28 @@ struct ProfileView: View {
                         .padding(.vertical, 14)
                         .frame(height: 96)
                         .glassCard(cornerRadius: 12.65, lineWidth: 0.10, strokeColor: Color(red: 1, green: 0.67, blue: 0.31))
+                        .glassStagger(index: 2, delayOffset: 0.08)
 
                         // 3. Earn
-                                                VStack(spacing: 8) {
-                                                        ZStack {
-                                Image("earn-icon")
-                                    .renderingMode(.template)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .foregroundColor(.white)
-                                                        }
-                                                        .frame(width: 32, height: 32)
-                                                        Text("Earn")
-                                                                .font(.system(size: 15, weight: .regular, design: .serif))
-                                                                .foregroundColor(.white)
+                        VStack(spacing: 8) {
+                            Image("earn-icon")
+                                .renderingMode(.template)
+                                .resizable()
+                                .scaledToFit()
+                                .foregroundColor(.white)
+                                .frame(width: 32, height: 32)
+                            Text("Earn")
+                                .font(.system(size: 15, weight: .regular, design: .serif))
+                                .foregroundColor(.white)
                         }
-                                                .frame(maxWidth: .infinity)
-                                                .padding(.vertical, 14)
-                                                .frame(height: 96)
-                                                .glassCard(cornerRadius: 12.65, lineWidth: 0.10, strokeColor: Color(red: 1, green: 0.67, blue: 0.31))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .frame(height: 96)
+                        .glassCard(cornerRadius: 12.65, lineWidth: 0.10, strokeColor: Color(red: 1, green: 0.67, blue: 0.31))
+                        .glassStagger(index: 3, delayOffset: 0.08)
                     }
                     .padding(.horizontal, 20)
+                    .glassShimmer(duration: 4.8, delay: 1.8)
 
                     // "Your Vibes" Terracotta Card
                     VStack(alignment: .leading, spacing: 8) {
@@ -224,6 +236,7 @@ struct ProfileView: View {
                     )
                     .shadow(color: Color.black.opacity(0.2), radius: 8, x: 0, y: 4)
                     .padding(.horizontal, 20)
+                    .glassStagger(index: 4, delayOffset: 0.08)
 
                     // Action Items: Achievements & Question Progress
                     VStack(spacing: 8) {
@@ -240,6 +253,8 @@ struct ProfileView: View {
                             .padding(16)
                             .glassCard(cornerRadius: 16)
                         }
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.97))
+                        .glassStagger(index: 5, delayOffset: 0.08)
 
                         Button(action: {}) {
                             HStack {
@@ -254,6 +269,8 @@ struct ProfileView: View {
                             .padding(16)
                             .glassCard(cornerRadius: 16, fillOpacity: 0.05, strokeOpacity: 0.2)
                         }
+                        .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.97))
+                        .glassStagger(index: 6, delayOffset: 0.08)
                     }
                     .padding(.horizontal, 20)
 
@@ -262,6 +279,11 @@ struct ProfileView: View {
                 }
             }
             .ignoresSafeArea()
+        }
+        .onAppear {
+            withAnimation(.spring(response: 0.8, dampingFraction: 0.7)) {
+                isAppeared = true
+            }
         }
     }
 }
