@@ -255,7 +255,7 @@ private struct PastEventRow: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 108, height: 118)
-                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                    .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
 
                 // Semi-transparent frosted "Ended" pill badge
                 Text(event.status ?? "Ended")
@@ -288,7 +288,7 @@ private struct PastEventRow: View {
                 Spacer()
 
                 // Action buttons
-                HStack(spacing: 8) {
+                HStack(spacing: 0) {
                     Button {
                         router.navigationPath.append("EventPhotos")
                     } label: {
@@ -296,7 +296,7 @@ private struct PastEventRow: View {
                             .font(.system(size: 12, weight: .medium))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 9)
+                            .padding(.vertical, 12)
                             .background(Color(hex: "AE4B30"))
                             .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                             .shadow(color: Color(hex: "AE4B30").opacity(0.3), radius: 4, y: 2)
@@ -310,7 +310,7 @@ private struct PastEventRow: View {
                             .font(.system(size: 12, weight: .medium))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 9)
+                            .padding(.vertical, 12)
                             .background(
                                 RoundedRectangle(cornerRadius: 12, style: .continuous)
                                     .fill(.ultraThinMaterial.opacity(0.85))
@@ -327,11 +327,14 @@ private struct PastEventRow: View {
                     }
                     .buttonStyle(GlassInteractiveButtonStyle(scaleAmount: 0.93))
                 }
+            .padding(.top, 12)
+            .padding(.bottom, 12)
             }
-            .frame(height: 118)
+            .padding(.trailing, 16)
+            .frame(height: 140)
         }
-        .padding(8)
-        .glassCard(cornerRadius: 28)
+        .padding(6)
+        .glassCard(cornerRadius: 24)
     }
 }
 

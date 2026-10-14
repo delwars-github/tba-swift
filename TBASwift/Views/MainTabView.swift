@@ -31,7 +31,7 @@ enum TabItemType: Int, CaseIterable {
 }
 
 struct MainTabView: View {
-    @State var selectedTab: TabItemType = .home
+    @State var selectedTab: TabItemType = .myEvent
     @Namespace private var animationNamespace
 
     var body: some View {
