@@ -153,14 +153,8 @@ struct CircularGlassButton: View {
 
 struct GlassTag: View {
     var title: String
-    var strokeOpacity: Double = 0.55
+    var strokeOpacity: Double = 0.65
     var action: (() -> Void)? = nil
-
-    init(title: String, strokeOpacity: Double = 0.55, action: (() -> Void)? = nil) {
-        self.title = title
-        self.strokeOpacity = strokeOpacity
-        self.action = action
-    }
 
     var body: some View {
         if let action = action {
@@ -175,38 +169,34 @@ struct GlassTag: View {
 
     @ViewBuilder
     private var content: some View {
-        let tag = Text(title)
+        Text(title)
             .font(.system(size: 12, weight: .medium))
-            .foregroundColor(.white.opacity(0.9))
+            .foregroundColor(.white)
             .padding(.horizontal, 14)
-            .padding(.vertical, 7)
-
-        if #available(iOS 26.0, *) {
-            tag.glassEffect(.regular, in: Capsule())
-        } else {
-            tag.glassPill(strokeOpacity: strokeOpacity, lineWidth: 1.0)
-        }
+            .padding(.vertical, 8)
+            .glassPill(
+                fillOpacity: 0.03,
+                strokeOpacity: 0.05,
+                hasShadow: false,
+                lineWidth: 0.5
+            )
     }
 }
 
-// MARK: - MinusButton (Figma Export)
-public struct MinusButton: View {
-    public var action: () -> Void
-    
-    public init(action: @escaping () -> Void) {
-        self.action = action
-    }
-    
-    public var body: some View {
+// MARK: - MinusButton
+
+struct MinusButton: View {
+    var action: () -> Void
+
+    var body: some View {
         Button(action: action) {
-            HStack(spacing: 8) {
-              Text("-")
+            Text("-")
                 .font(Font.custom("DMSerifDisplay-Regular", size: 31))
                 .foregroundColor(.white)
-            }
-            .padding(EdgeInsets(top: 14, leading: 16, bottom: 14, trailing: 16))
-            .background(Color(red: 1, green: 1, blue: 1).opacity(0.03))
-            .cornerRadius(106)
+                .padding(EdgeInsets(top: 0, leading: 12, bottom: 4, trailing: 12))
+                .background(Color.white.opacity(0.1))
+                .cornerRadius(16)
         }
     }
 }
+
